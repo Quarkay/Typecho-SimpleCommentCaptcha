@@ -17,7 +17,7 @@ Typecho-SimpleCommentCaptcha 插件用于防御全网自动扫描可评论网址
     git clone git@github.com:mierhuo/Typecho-SimpleCommentCaptch.git
     ```
 
-2. 将子文件夹 ViewsCounter 复制到 Typecho 插件目录
+2. 将子文件夹 SimpleCommentCaptcha 复制到 Typecho 插件目录
 
     ```bash
     cp -r Typecho-SimpleCommentCaptcha/SimpleCommentCaptcha /path...to...your...typecho/usr/plugins/
@@ -29,11 +29,11 @@ Typecho-SimpleCommentCaptcha 插件用于防御全网自动扫描可评论网址
 
 4. 在所使用的主题评论表单区域，如下例中的提交评论按钮前，添加一行代码：
 
-    ```php
-    <p> // example-context
-        <?php SimpleCommentCaptcha_Plugin::outputSimpleCommentCaptchaField(); ?> // 添加此行
-        <button type="submit" class="submit"><?php _e('提交评论'); ?></button> // example-context
-    </p> // example-context
+    ```html
+    <p> <!-- example-context -->
+        <?php SimpleCommentCaptcha_Plugin::outputSimpleCommentCaptchaField(); ?> <!-- 添加此行 -->
+        <button type="submit" class="submit"><?php _e('提交评论'); ?></button> <!-- example-context -->
+    </p> <!-- example-context -->
     ```
 
 ## License
