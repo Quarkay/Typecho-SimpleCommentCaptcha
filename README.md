@@ -14,7 +14,7 @@ Typecho-SimpleCommentCaptcha 插件用于防御全网自动扫描可评论网址
 1. 首先将本项目克隆到本地：
 
     ```bash
-    git clone git@github.com:mierhuo/Typecho-SimpleCommentCaptch.git
+    git clone git@github.com:quarkay/Typecho-SimpleCommentCaptch.git
     ```
 
 2. 将子文件夹 SimpleCommentCaptcha 复制到 Typecho 插件目录
@@ -25,7 +25,7 @@ Typecho-SimpleCommentCaptcha 插件用于防御全网自动扫描可评论网址
     
 3. 在Typecho后台点击启用并进行相关设置如下图：
 
-    <img src="https://raw.githubusercontent.com/mierhuo/Typecho-SimpleCommentCaptcha/master/config_example.png" alt="配置设置例子">
+    <img src="https://raw.githubusercontent.com/quarkay/Typecho-SimpleCommentCaptcha/master/config_example.png" alt="配置设置例子">
 
 4. 在所使用的主题评论表单区域，如下例中的提交评论按钮前，添加一行代码：
 
@@ -38,4 +38,4 @@ Typecho-SimpleCommentCaptcha 插件用于防御全网自动扫描可评论网址
 
 ## License
 
-<a href="https://github.com/mierhuo/Typecho-SimpleCDN/blob/master/LICENSE.txt">The GNU General Public License (GPL) V2</a>
+<a href="https://github.com/quarkay/Typecho-SimpleCDN/blob/master/LICENSE.txt">The GNU General Public License (GPL) V2</a>

@@ -5,9 +5,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  * 利用访问者计算量证明实现验证，对针对站点定制的恶意机器人，防御作用有限。
  *
  * @package SimpleCommentCaptcha
- * @author  Huspy
+ * @author  Quarkay
  * @version 1.0.0
- * @link https://www.mierhuo.com
+ * @link https://www.quarkay.com
  */
 class SimpleCommentCaptcha_Plugin implements Typecho_Plugin_Interface
 {
