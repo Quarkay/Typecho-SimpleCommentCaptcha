@@ -14,7 +14,7 @@ Typecho-SimpleCommentCaptcha 插件用于防御全网自动扫描可评论网址
 1. 首先将本项目克隆到本地：
 
     ```bash
-    git clone git@github.com:quarkay/Typecho-SimpleCommentCaptch.git
+    git clone git@github.com:Quarkay/Typecho-SimpleCommentCaptcha.git
     ```
 
 2. 将子文件夹 SimpleCommentCaptcha 复制到 Typecho 插件目录
